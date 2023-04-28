@@ -1,0 +1,70 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+    <title>Power Burger</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <h2>Hamburguesas Creadas:</h2>
+    <ul id="listaHamburguesas"></ul>
+    <h1>Power Burger</h1>
+<form>
+ 
+  <label for="burger-name">Nombra tu Hamburguesa:</label>
+  <input type="text" id="burger-name" name="name"><br><br>
+  <label>Ingredientes:</label><br>
+  <input type="checkbox" id="Pan de papa" name="ingredient" value="Pan de papa">
+  <label for="Pan de papa">Pan de papa</label><br>
+  <input type="checkbox" id="Pan de sésamo" name="ingredient" value="Pan de sésamo">
+  <label for="Pan de sésamo">Pan de sésamo</label><br>
+  <input type="checkbox" id="Medallon carne" name="ingredient" value="Medallon carne">
+  <label for="Medallon carne">Medallon carne</label><br>
+  <input type="checkbox" id="Medallon veggie" name="ingredient" value="Medallon veggie">
+  <label for="Medallon veggie">Medallon veggie</label><br>
+  <input type="checkbox" id="Huevo frito" name="ingredient" value="Huevo frito">
+  <label for="Huevo frito">Huevo frito</label><br>
+  <input type="checkbox" id="bacon" name="ingredient" value="bacon">
+  <label for="bacon">Bacon</label><br>
+  <input type="checkbox" id="cheddar" name="ingredient" value="cheddar">
+  <label for="cheddar">Cheddar</label><br>
+  <input type="checkbox" id="Tomate" name="ingredient" value="Tomate">
+  <label for="Tomate">Tomate</label><br>
+  <input type="checkbox" id="Lechuga" name="ingredient" value="Lechuga">
+  <label for="Lechuga">Lechuga</label><br>
+  <input type="checkbox" id="Salsa" name="ingredient" value="Salsa">
+  <label for="Salsa">Salsa</label><br>
+  <input type="checkbox" id="Cebolla" name="ingredient" value="Cebolla">
+  <label for="Cebolla">Cebolla</label><br>
+  <input type="checkbox" id="Queso azul" name="ingredient" value="Queso azul">
+  <label for="Queso azul">Queso azul</label><br><br>
+  <br>
+  <label>Guarniciones:</label><br>
+      <input type="checkbox" id="papas" name="guarnicion" value="Papas">
+      <label for="papas">Papas</label><br>
+      <input type="checkbox" id="papas-cheddar" name="guarnicion" value="Papas con Cheddar">
+      <label for="papas-cheddar">Papas con Cheddar</label><br>
+      <input type="checkbox" id="papas-cheddar-bacon" name="guarnicion" value="Papas con Cheddar y Bacon">
+      <label for="papas-cheddar-bacon">Papas con Cheddar y Bacon</label><br>
+      <input type="checkbox" id="papas-verdeo" name="guarnicion" value="Papas al Verdeo">
+      <label for="papas-verdeo">Papas al Verdeo</label><br>
+      <input type="checkbox" id="nuggets" name="guarnicion" value="Nuggets">
+      <label for="nuggets">Nuggets</label><br>
+      <input type="checkbox" id="aros-cebolla" name="guarnicion" value="Aros de Cebolla">
+      <label for="aros-cebolla">Aros de Cebolla</label><br>
+      <input type="button" value="Crea mi Hamburguesa!" onclick="getHamburgerIngredients()">
+  </form>
+    <div id="hamburguesas">
+      <h2>Podes seguirnos en nuestras Redes:</h2>
+      <ul id="listaHamburguesas"></ul>
+    </div>
+  
+    <a href="https://www.instagram.com/powwerburger/">
+      <img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491579600-yumminkysocialmedia36_83067.png" alt="Instagram logo" width="30px">
+    </a>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/hamburguesaFondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  text-align: center;
+}
+h1, h2, p {
+  text-shadow: -1px -1px 0 #f7d204, 1px -1px 0 #f7d204, -1px 1px 0 #f7d204, 1px 1px 0 #f7d204;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+label {
+  display: inline-block;
+  width: 350px;
+}
+
+input[type="text"], input[type="button"] {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+}
+.contenedor-ingredientes, .contenedor-guarniciones {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contenedor-ingredientes h2, .contenedor-guarniciones h2 {
+  margin-top: 0;
+}
